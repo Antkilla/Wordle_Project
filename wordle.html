@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="wordle.css">
+</head>
+<body>
+    <div id="wordle-grid">
+        <div id="row1" class="row">
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+        </div>
+
+        
+        <div id="row2" class="row">
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+        </div>
+
+
+        <div id="row3" class="row">
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+        </div>    
+
+
+        <div id="row4" class="row">
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+        </div>   
+
+
+        <div id="row5" class="row">
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+        </div>
+
+
+        <div id="row6" class="row">
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+            <div class="letter"></div>
+        </div>
+    
+    
+    
+    <div id="wordle-game">
+        <h1>Wordle</h1>
+        <p>Guess the 5-letter word:</p>
+        <div id="word-display"></div>                        
+        <input type="text" id="guess-input" maxlength="5">
+        <button id="guess-button">Guess</button>
+        <p id="attempts">Attempts remaining: <span id="attempt-count">6</span></p>
+        <div id="message"></div>
+    </div>
+
+    <script src="wordle.js"></script>
+</body>
+</html>

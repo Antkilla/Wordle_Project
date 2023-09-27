@@ -1,0 +1,60 @@
+/* Define styles for the Wordle grid and cells */
+#wordle-grid {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}     
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.letter {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+    margin: 5px;
+    padding: 1em;
+    border: 1px black solid;
+}
+
+.row {
+    display: flex;        
+    margin: 3px;                                       /*Add margin to create spacing between cells */
+    justify-content: center;
+}
+
+#wordle-game {
+    margin: 1 auto;
+    max-width:600px;
+    padding: 20px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#word-display {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#guess-input {
+    width: 100px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#guess-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+}
